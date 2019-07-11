@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="welcome">
+	<table>
+		<tr>
+			<td><a name="top"></td>	
+			<td><img src="images/logooo.png" height=250 width=250><img src="images/animall.png" height=250 width=1070></td>
+		</tr>
+	</table>
+</head>
+	<hr/>
+<body bgcolor="#1bcf87">
+	<table width=100% >
+		<tr>
+			<nav>
+			<td><a href="assignmentt.html"><font size=5 color="#000000">Home</font></a></td>
+			<td><a href="about.html"><font size=5 color="#000000">About</font></a></td>
+			<td><a href="download.html"><font size=5 color="#000000">Download</font></a></td>
+			<td><a href="register.html"><font size=5 color="#000000">Register</font></a></td>
+			</nav>
+		</tr>
+	</table>
+	<hr/>
+	<br/>
+	<form method="POST" action="#" name="regform" enctype="multipart/form-date">
+		<fieldset>
+			<legend>Registration</legend>
+			<table border=0 cellpadding=10 cellspacing=10>
+				<tr>
+					<td>Full Name</td>
+					<td><input type="Name" type="text" placeholder="First Middle Last" required/></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email" placeholder="you@email.com" required/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="password" placeholder="password" required/></td>
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td><input type="radio" name="gender" value="M" checked/>Male</td>
+					<td><input type="radio" name="gender" value="F">Female</td>
+					<td><input type="radio" name="gender" value="O">Others</td>
+				</tr>
+				<tr>
+					<td>DOB</td>
+					<td><input type="date" name="date"></td>
+				</tr>
+				<tr>
+					<td>City</td>
+					<td><select name="city" size=1>
+							<option value="KTM">Kathmandu</option>
+							<option value="PHK">Pokhara</option>
+						</select></td>
+				</tr>		
+				<tr>
+					<td>Photo</td>
+					<td><input type="file" name="something"></td>
+				</tr>
+				<tr>
+					<td>Message</td>
+					<td><textarea rows=5 cols=40></textarea></td>
+				</tr>
+				<tr>
+					<td><input type="checkbox"></td>
+					<td>I agree to the terms and conditions</td>
+				</tr>
+				<tr>
+					<td><input type="submit" name="Submit"></td>
+					<td><input type="reset" name="Cancel"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
